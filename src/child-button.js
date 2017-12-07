@@ -32,7 +32,7 @@ class ChildButton extends React.Component {
            onClick={this.handleOnClick}
            style={this.props.style}
            className={className}>
-          <i className={iconClass}></i>
+          <i className={iconClass}>{this.props.iconName}</i>
         </a>
       </li>
     );
