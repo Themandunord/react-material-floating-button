@@ -1,7 +1,7 @@
 {
   "name": "react-mfb-mui",
-  "version": "0.1.0",
-  "description": "React component for a material menu à la Google Inbox and Evernote",
+  "version": "0.1.1",
+  "description": "React component for a material menu with MUI",
   "author": "rlespagnol",
   "contributors": [],
   "license": "MIT",
