@@ -32,10 +32,15 @@ class Menu extends React.Component {
   render() {
     var classes = getClasses(this.props);
     var buttons = getChildren(this.props.children);
+    var main = null;
 
-    var main = buttons.main && React.cloneElement(buttons.main, {
-      onClick: this.toggleMenu
-    });
+    if (this.props.single) {
+      main = buttons.main && React.cloneElement(buttons.main, {});
+    } else {
+      main = buttons.main && React.cloneElement(buttons.main, {
+        onClick: this.toggleMenu
+      });
+    }
 
     return (
       <ul className={classes}
