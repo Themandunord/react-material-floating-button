@@ -22,8 +22,8 @@ class MainButton extends React.Component {
     } else {
       return (
         <a href={this.props.href} style={this.props.style} className={mainClass} onClick={this.props.onClick}>
-          <i className={iconResting}>{this.props.iconRestingName}</i>
-          <i className={iconActive}>{this.props.iconActiveName}</i>
+          <i className={iconResting}>{this.props.iconResting}</i>
+          <i className={iconActive}>{this.props.iconActive}</i>
         </a>
       );
     }
