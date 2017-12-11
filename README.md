@@ -1,14 +1,14 @@
 # React Material Floating Button
 
 
-Material design floating action button implemented as a React component.
+Material design floating action button implemented as a React component for MUI.
 
 Made to be fast and easy to customize.
 ~~Shamelessly~~ inspired by action buttons from Google Inbox, Evernote and Path.
 
 Clone/download the repo from Github or just use npm:
 ```
-npm install react-mfb --save
+npm install react-mfb-mui --save
 ```
 
 Docs are still to come (but hopefully will be there soon).
