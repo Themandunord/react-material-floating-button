@@ -34,9 +34,7 @@ MainButton.defaultProps = {
   href: '#',
   onClick: function(){},
   iconResting: '',
-  iconRestingName: '',
   iconActive: '',
-  iconActiveName: '',
   label: null
 };
 
